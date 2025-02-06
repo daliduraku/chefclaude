@@ -1,5 +1,10 @@
+import React from 'react'
+
 export default function Main() {
-  return (
+
+    const [ingredients, setIngredients] = React.useState([]);
+
+    return (
       <main>
           <form className="add-ingredient-form">
               <input 
